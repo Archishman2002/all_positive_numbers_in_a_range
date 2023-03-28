@@ -1,0 +1,5 @@
+def print_positive_numbers(start, end):
+    """Print all positive numbers in the range from start to end."""
+    for i in range(start, end+1):
+        if i > 0:
+            print(i)
